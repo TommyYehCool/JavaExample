@@ -25,7 +25,7 @@ import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 
-public class ItxtSample {
+public class ITextPdfSample {
   // 產生PDF路徑
   private static final String FILE_PATH = "D:/ItextSample.pdf";
 
@@ -367,6 +367,6 @@ public class ItxtSample {
   }
 
   public static void main(String[] args) {
-    new ItxtSample().start();
+    new ITextPdfSample().start();
   }
 }
