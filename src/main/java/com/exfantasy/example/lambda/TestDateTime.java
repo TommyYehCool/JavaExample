@@ -1,11 +1,14 @@
 package com.exfantasy.example.lambda;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.Month;
 import java.time.MonthDay;
 import java.time.Period;
 import java.time.temporal.ChronoUnit;
+import java.util.Date;
 
 public class TestDateTime {
 	private void start() {
@@ -26,6 +29,8 @@ public class TestDateTime {
 		findNextWeekDate();
 		
 		calculateDaysBetween();
+		
+		testDate();
 	}
 
 	private void getTodaysDate() {
@@ -93,7 +98,28 @@ public class TestDateTime {
 		
 		long totalDays = ChronoUnit.DAYS.between(today, goDate);
 		
-		System.out.printf("Remain %d months and %d days, total: %d days %n ", period.getMonths(), period.getDays(), totalDays);
+		System.out.printf("Remain %d months and %d days, total: %d days %n", period.getMonths(), period.getDays(), totalDays);
+	}
+
+	private void testDate() {
+		String input = "2016-08-09 10:00:00";
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		try {
+			Date parse = df.parse(input);
+			parse.setTime(parse.getTime() * 1000);
+			System.out.printf("Test date, time: %d, String: %s%n", parse.getTime(), parse.toString());
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		
+		Date date = new Date();
+		System.out.printf("Test new Date(), time: %d, String: %s%n", date.getTime(), date.toString());
+		
+		long time = date.getTime();
+		long timeToSet = time * 1000;
+		date.setTime(timeToSet);
+		
+		System.out.printf("Test date setTime, time: %d, String: %s%n", timeToSet, date.toString());
 	}
 
 	public static void main(String[] args) {
