@@ -1,4 +1,4 @@
-package com.exfantasy.example.lambda;
+package com.exfantasy.example;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
