@@ -1,4 +1,4 @@
-package com.exfantasy.example;
+package com.exfantasy.example.calendar;
 
 import java.util.*;
 import static java.util.Calendar.*;

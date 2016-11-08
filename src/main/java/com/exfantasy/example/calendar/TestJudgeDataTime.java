@@ -1,4 +1,4 @@
-package com.exfantasy.example;
+package com.exfantasy.example.calendar;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
