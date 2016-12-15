@@ -6,10 +6,12 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 /**
+ * <pre>
  * 參考網站
- * http://www.cnblogs.com/dolphin0520/p/3920397.html
+ * <a href="http://www.cnblogs.com/dolphin0520/p/3920397.html">http://www.cnblogs.com/dolphin0520/p/3920397.html</a>
+ * </pre>
  * 
- * @author User1
+ * @author TommyYeh
  */
 public class TestCyclicBarrier {
 	public static void main(String[] args) {
