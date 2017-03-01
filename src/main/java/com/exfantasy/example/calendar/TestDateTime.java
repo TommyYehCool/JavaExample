@@ -30,6 +30,8 @@ public class TestDateTime {
 		
 		calculateDaysBetween();
 		
+		calculateMonthsBetween();
+		
 		testDate();
 	}
 
@@ -99,6 +101,17 @@ public class TestDateTime {
 		long totalDays = ChronoUnit.DAYS.between(today, goDate);
 		
 		System.out.printf("Remain %d months and %d days, total: %d days %n", period.getMonths(), period.getDays(), totalDays);
+	}
+	
+	private void calculateMonthsBetween() {
+		LocalDate start = LocalDate.of(2007, 9, 1);
+		LocalDate end = LocalDate.of(2016, 2, 1);
+		long totalMonths = ChronoUnit.MONTHS.between(start, end);
+		System.out.printf("Total month: %d %n", totalMonths);
+		
+		long totalYears = totalMonths / 12;
+		long remainMonths = totalMonths % 12;
+		System.out.printf("Total year month: %d years %d months %n", totalYears, remainMonths);
 	}
 
 	private void testDate() {
