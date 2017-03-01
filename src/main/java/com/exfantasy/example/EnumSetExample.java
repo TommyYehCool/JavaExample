@@ -13,9 +13,11 @@ public class EnumSetExample {
 			= EnumSet.of(FontConstant.Plain, FontConstant.Bold);
 
 		// 顯示集合內容
+		System.out.println(">>>>> Show all of EnumSet");
 		showEnumSet(enumSet);
 
 		// 顯示補集合內容
+		System.out.println(">>>>> Show all complements of EnumSet");
 		showEnumSet(EnumSet.complementOf(enumSet));
 	}
 
