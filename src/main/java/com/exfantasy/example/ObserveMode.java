@@ -40,6 +40,7 @@ class Student implements Observer {
           this.name = name;
      }
     
+     @Override
      public void update(Observable o, Object arg) {
           System.out.println(o);
           System.out.println(name + ">>>>> Message board changed: " + arg);
