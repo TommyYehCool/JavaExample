@@ -1,4 +1,4 @@
-package com.exfantasy.example;
+package com.exfantasy.example.collection;
 
 import java.util.ArrayList;
 import java.util.List;

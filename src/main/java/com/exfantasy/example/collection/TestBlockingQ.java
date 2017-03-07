@@ -1,4 +1,4 @@
-package com.exfantasy.example;
+package com.exfantasy.example.collection;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

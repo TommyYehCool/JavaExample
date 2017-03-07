@@ -1,4 +1,4 @@
-package com.exfantasy.example;
+package com.exfantasy.example.file;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.exfantasy.example;
+package com.exfantasy.example.basic;
 
 class StaticExampleAnimal {
 	private int age;

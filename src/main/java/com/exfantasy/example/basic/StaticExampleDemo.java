@@ -1,4 +1,4 @@
-package com.exfantasy.example;
+package com.exfantasy.example.basic;
 
 public class StaticExampleDemo {
 	public static void main(String[] args) {

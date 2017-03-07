@@ -1,4 +1,4 @@
-package com.exfantasy.example;
+package com.exfantasy.example.basic;
 
 public class TestXOR {
 	public static void main(String[] args) {
