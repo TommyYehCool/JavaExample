@@ -1,11 +1,11 @@
-package com.exfantasy.example.container;
+package com.exfantasy.example.collection;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Test;
 
-public class TestContainer {
+public class TestCollection {
 
 	@Test
 	public void testList() {
