@@ -42,7 +42,6 @@ class Student implements Observer {
     
      @Override
      public void update(Observable o, Object arg) {
-          System.out.println(o);
-          System.out.println(name + ">>>>> Message board changed: " + arg);
+          System.out.println(name + " >>>>> Message board changed: " + arg);
      }
 }

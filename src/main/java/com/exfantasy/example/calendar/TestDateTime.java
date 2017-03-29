@@ -104,8 +104,8 @@ public class TestDateTime {
 	}
 	
 	private void calculateMonthsBetween() {
-		LocalDate start = LocalDate.of(2007, 9, 1);
-		LocalDate end = LocalDate.of(2016, 2, 1);
+		LocalDate start = LocalDate.of(1980, 11, 12);
+		LocalDate end = LocalDate.of(2017, 3, 29);
 		long totalMonths = ChronoUnit.MONTHS.between(start, end);
 		System.out.printf("Total month: %d %n", totalMonths);
 		
