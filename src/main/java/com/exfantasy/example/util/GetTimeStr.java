@@ -8,9 +8,9 @@ import java.util.Date;
 public class GetTimeStr {
 	private static SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	
-	private static String promoEnableTime 		= "2017-05-19 17:58:00";
-	private static String startTime 			= "2017-05-19 17:58:05";
-	private static String endTime 				= "2017-05-19 18:03:00";
+	private static String promoEnableTime 		= "2017-05-25 16:44:00";
+	private static String startTime 			= "2017-05-25 16:44:05";
+	private static String endTime 				= "2017-05-25 16:50:00";
 	private static String promoAuditEndTime 	= "2017-05-30 23:00:00";
 	private static String promoGoldTime			= "2017-05-31 23:00:00";
 	
